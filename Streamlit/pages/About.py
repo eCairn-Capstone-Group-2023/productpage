@@ -35,7 +35,7 @@ for dev in developers:
     st.subheader(dev["name"])
     st.write(dev["email"])
     #st.image(dev["image"], width=100)
-    st.write(dev["description"])
+    #st.write(dev["description"])
 
 st.markdown("# About the Project Author")
 dom = {"name": "Dominique Lahaix", "email": "dominique.lahaix@ecairn.com", "image": "image1.png",
